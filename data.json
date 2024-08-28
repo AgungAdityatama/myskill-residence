@@ -1,0 +1,25 @@
+{
+  "navItem": [
+    {
+      "judul": "Beranda",
+      "tautan": "/"
+    },
+    {
+      "judul": "Tipe Rumah",
+      "tautan": "/tipe-rumah"
+    },
+    {
+      "judul": "Tentang Kami",
+      "tautan": "/tentang-kami"
+    },
+    {
+      "judul": "Kontak",
+      "tautan": "/kontak"
+    },
+    {
+      "judul": "Blog",
+      "tautan": "/blog"
+    }
+  ],
+  "konten": {}
+}
