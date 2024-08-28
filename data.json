@@ -21,5 +21,32 @@
       "tautan": "/blog"
     }
   ],
-  "konten": {}
+  "konten": {},
+  "fasilitas": [
+    {
+      "judul": "Kolam Renang Infinity",
+      "penjelasan": "Nikmati momen istimewa berenang di kolam renang infinity kami yang memukau. Dengan desain yang memadukan kemewahan dan keindahan, Anda dapat menyelam sambil menikmati panorama kota yang spektakuler. Kolam renang ini tidak hanya menjadi tempat untuk berolahraga, tetapi juga tempat untuk melepaskan penat dan meresapi keindahan lingkungan sekitar.",
+      "gambar": "/img/fasilitas/1.jpg"
+    },
+    {
+      "judul": "Pusat Kebugaran Berstandar Tinggi",
+      "penjelasan": "Jadilah sehat dan bugar di pusat kebugaran kami yang dilengkapi dengan peralatan modern dan fasilitas lengkap. Tim instruktur berpengalaman kami siap membantu Anda mencapai tujuan kebugaran Anda. Dengan program pelatihan yang disesuaikan, pusat kebugaran ini menjadi pusat transformasi kesehatan dan kebugaran Anda.",
+      "gambar": "/img/fasilitas/2.jpg"
+    },
+    {
+      "judul": "Restoran dan Kafe Eksklusif",
+      "penjelasan": "Nikmati hidangan lezat dan minuman segar di restoran dan kafe eksklusif kami. Tanpa harus meninggalkan kompleks, Anda dapat menjelajahi ragam kuliner yang memikat lidah. Suasana yang nyaman dan pilihan menu yang beragam akan memastikan setiap kali Anda makan menjadi pengalaman yang tak terlupakan.",
+      "gambar": "/img/fasilitas/3.jpg"
+    },
+    {
+      "judul": "Taman Indah dan Ruang Hijau",
+      "penjelasan": "Bersantai di taman indah kami yang dikelilingi oleh ruang hijau. Dengan pepohonan rindang dan desain taman yang estetis, tempat ini menjadi tempat yang sempurna untuk melepaskan penat setelah hari yang panjang. Taman ini bukan hanya area rekreasi, tetapi juga merupakan oase ketenangan di tengah kehidupan perkotaan yang sibuk.",
+      "gambar": "/img/fasilitas/4.jpg"
+    },
+    {
+      "judul": "Sistem Keamanan 24/7 dengan Pemantauan CCTV",
+      "penjelasan": "MySkill Residence mengutamakan keamanan penghuninya. Oleh karena itu, kami menyediakan sistem keamanan canggih yang beroperasi selama 24 jam sehari, 7 hari seminggu. Sistem ini mencakup pemantauan CCTV di seluruh kompleks, memastikan setiap sudut dan area terjaga dengan baik. Dengan ini, setiap aktivitas yang terjadi di sekitar properti dapat dipantau secara langsung, memberikan tingkat keamanan yang tinggi dan memberikan ketenangan pikiran kepada semua penghuni.",
+      "gambar": "/img/fasilitas/5.jpg"
+    }
+  ]
 }
