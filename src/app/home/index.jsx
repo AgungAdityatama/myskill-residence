@@ -35,7 +35,9 @@ const HomeIndex = () => {
       </div>
       <div className="flex flex-col items-center gap-12 xl:px-20 2xl:px-72">
         <div className="flex flex-col items-center gap-2">
-          <h1 className="text-[1.3rem]">Fasilitas Yang Dimiliki</h1>
+          <h1 className="text-[1.3rem] lg:text-[2rem]">
+            Fasilitas Yang Dimiliki
+          </h1>
           <div className="w-1/2 h-[5px] rounded-md bg-primary"></div>
         </div>
         <Fasilitas />

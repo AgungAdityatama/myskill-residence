@@ -13,7 +13,9 @@ const Fasilitas = () => {
             className={`flex flex-col gap-3 md:gap-5 items-start justify-between ${flexDirection}`}
           >
             <div className="flex flex-col gap-3 md:w-1/2">
-              <h1 className="text-[1.15rem] font-semibold">{data.judul}</h1>
+              <h1 className="text-[1.15rem] lg:text-[1.25rem] font-semibold">
+                {data.judul}
+              </h1>
               <p>{data.penjelasan}</p>
             </div>
             <Image
