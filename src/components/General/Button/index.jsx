@@ -1,8 +1,12 @@
 import Link from "next/link";
-import PropTypes from "prop-types";
 
-const Button = ({ label, link, className, icon: Icon }) => {
-  const defaultStyle = `flex items-center justify-center gap-2 rounded-md font-semibold hover:-translate-y-2 transition-all duration-700 bg-primary hover:bg-secondary text-white p-4 ${className}`;
+const Button = ({ label, link, className = "", icon: Icon }) => {
+  const defaultStyle =
+    "flex items-center justify-center gap-2 rounded-md font-semibold hover:-translate-y-2 transition-all duration-700 p-4";
+  const defaultColor = className.includes("bg-")
+    ? ""
+    : "bg-primary hover:bg-secondary text-white";
+  const newClassName = `${defaultStyle} ${defaultColor} ${className}`;
 
   const setIcon = Icon ? (
     <Icon className="text-[1.25rem] font-extrabold" />
@@ -10,7 +14,7 @@ const Button = ({ label, link, className, icon: Icon }) => {
 
   if (link) {
     return (
-      <Link href={link} className={defaultStyle}>
+      <Link href={link} className={newClassName}>
         {label}
         {setIcon}
       </Link>
@@ -18,18 +22,11 @@ const Button = ({ label, link, className, icon: Icon }) => {
   }
 
   return (
-    <button className={defaultStyle}>
+    <button className={newClassName}>
       {label}
       {setIcon}
     </button>
   );
 };
-
-// Button.propTypes = {
-//   label: PropTypes.string.isRequired,
-//   link: PropTypes.string,
-//   className: PropTypes.string,
-//   icon: PropTypes.elementType,
-// };
 
 export default Button;

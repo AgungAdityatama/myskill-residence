@@ -1,6 +1,6 @@
 import Button from "@/components/General/Button";
 import Image from "next/image";
-import { FiPhone, FiSearch } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
 
 const HomeIndex = () => {
   return (
