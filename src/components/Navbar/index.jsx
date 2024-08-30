@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`max-md:absolute max-md:w-full max-md:bg-light ${
+          className={`z-50 max-md:absolute max-md:w-full max-md:bg-light ${
             open
               ? "transition translate-x-0 duration-500"
               : "transition translate-x-full md:translate-x-0 duration-500"

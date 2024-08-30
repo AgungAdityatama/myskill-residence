@@ -5,7 +5,7 @@ import Fasilitas from "./Fasilitas";
 
 const HomeIndex = () => {
   return (
-    <div className="p-3 flex flex-col">
+    <div className="p-3 flex flex-col items-center">
       <div className=" p-3 py-16 xl:px-20 2xl:px-72 flex flex-col lg:flex-row-reverse items-center justify-center gap-5 lg:gap-14 xl:gap-28">
         <Image
           src="/img/home.png"

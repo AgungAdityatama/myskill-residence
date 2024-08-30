@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "../../../../data.json";
 import Link from "next/link";
 
 const NavItem = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+
   return (
     <nav className="flex max-md:flex-col max-md:h-screen gap-5 xl:gap-10 max-md:p-5">
       {data.navItem.map((data, index) => (

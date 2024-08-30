@@ -48,5 +48,179 @@
       "penjelasan": "MySkill Residence mengutamakan keamanan penghuninya. Oleh karena itu, kami menyediakan sistem keamanan canggih yang beroperasi selama 24 jam sehari, 7 hari seminggu. Sistem ini mencakup pemantauan CCTV di seluruh kompleks, memastikan setiap sudut dan area terjaga dengan baik. Dengan ini, setiap aktivitas yang terjadi di sekitar properti dapat dipantau secara langsung, memberikan tingkat keamanan yang tinggi dan memberikan ketenangan pikiran kepada semua penghuni.",
       "gambar": "/img/fasilitas/5.jpg"
     }
+  ],
+  "tipe": [
+    {
+      "nama": "Casa Verde",
+      "slug": "casa-verde",
+      "desc": "Casa Verde, rumah dengan desain modern dan luas tanah yang cukup untuk kehidupan keluarga. Dengan dua kamar mandi dan tiga kamar tidur, rumah ini memberikan kenyamanan dan kehangatan bagi keluarga Anda.",
+      "gambar": "/img/house-1.png",
+      "denah": "/img/denah_rumah.jpg",
+      "luasBangunan": {
+        "label": "Luas Bangunan",
+        "value": "120"
+      },
+      "luasTanah": {
+        "label": "Luas Tanah",
+        "value": "200"
+      },
+      "kamarMandi": {
+        "label": "Kamar Mandi",
+        "value": "2"
+      },
+      "kamarTidur": {
+        "label": "Kamar Tidur",
+        "value": "3"
+      },
+      "harga": {
+        "label": "Harga",
+        "value": "700Jt-an"
+      },
+      "carport": {
+        "label": "Carport",
+        "value": "1"
+      },
+      "kanopi": {
+        "label": "Kanopi",
+        "value": "Free"
+      },
+      "pompaAir": {
+        "label": "Pompa Air",
+        "value": "Free"
+      },
+      "toren": {
+        "label": "Toren Air",
+        "value": "Free"
+      }
+    },
+    {
+      "nama": "Sky Villa",
+      "slug": "sky-villa",
+      "desc": "Sky Villa, rumah mewah dengan pemandangan yang menakjubkan. Dengan tiga kamar mandi dan empat kamar tidur, ini adalah tempat yang sempurna untuk hidup bergaya dan bersantai di atas langit biru.",
+      "gambar": "/img/house-2.png",
+      "denah": "/img/denah_rumah.jpg",
+      "luasBangunan": {
+        "label": "Luas Bangunan",
+        "value": "180"
+      },
+      "luasTanah": {
+        "label": "Luas Tanah",
+        "value": "250"
+      },
+      "kamarMandi": {
+        "label": "Kamar Mandi",
+        "value": "3"
+      },
+      "kamarTidur": {
+        "label": "Kamar Tidur",
+        "value": "4"
+      },
+      "harga": {
+        "label": "Harga",
+        "value": "800Jt-an"
+      },
+      "carport": {
+        "label": "Carport",
+        "value": "1"
+      },
+      "kanopi": {
+        "label": "Kanopi",
+        "value": "Free"
+      },
+      "pompaAir": {
+        "label": "Pompa Air",
+        "value": "Free"
+      },
+      "toren": {
+        "label": "Toren Air",
+        "value": "Free"
+      }
+    },
+    {
+      "nama": "Lakeview Mansion",
+      "slug": "lakeview-mansion",
+      "desc": "Lakeview Mansion, rumah megah dengan pemandangan danau yang menakjubkan. Dengan empat kamar mandi dan lima kamar tidur, rumah ini menghadirkan keanggunan dan kenyamanan untuk gaya hidup bergengsi.",
+      "gambar": "/img/house-3.png",
+      "denah": "/img/denah_rumah.jpg",
+      "luasBangunan": {
+        "label": "Luas Bangunan",
+        "value": "220"
+      },
+      "luasTanah": {
+        "label": "Luas Tanah",
+        "value": "300"
+      },
+      "kamarMandi": {
+        "label": "Kamar Mandi",
+        "value": "4"
+      },
+      "kamarTidur": {
+        "label": "Kamar Tidur",
+        "value": "5"
+      },
+      "harga": {
+        "label": "Harga",
+        "value": "900Jt-an"
+      },
+      "carport": {
+        "label": "Carport",
+        "value": "1"
+      },
+      "kanopi": {
+        "label": "Kanopi",
+        "value": "Free"
+      },
+      "pompaAir": {
+        "label": "Pompa Air",
+        "value": "Free"
+      },
+      "toren": {
+        "label": "Toren Air",
+        "value": "Free"
+      }
+    },
+    {
+      "nama": "Garden Retreat",
+      "slug": "garden-retreat",
+      "desc": "Garden Retreat, rumah elegan dengan taman yang indah. Dua kamar mandi dan tiga kamar tidur memberikan keseimbangan sempurna antara keindahan alam dan kenyamanan rumah modern.",
+      "gambar": "/img/house-4.png",
+      "denah": "/img/denah_rumah.jpg",
+      "luasBangunan": {
+        "label": "Luas Bangunan",
+        "value": "150"
+      },
+      "luasTanah": {
+        "label": "Luas Tanah",
+        "value": "180"
+      },
+      "kamarMandi": {
+        "label": "Kamar Mandi",
+        "value": "2"
+      },
+      "kamarTidur": {
+        "label": "Kamar Tidur",
+        "value": "3"
+      },
+      "harga": {
+        "label": "Harga",
+        "value": "950Jt-an"
+      },
+      "carport": {
+        "label": "Carport",
+        "value": "1"
+      },
+      "kanopi": {
+        "label": "Kanopi",
+        "value": "Free"
+      },
+      "pompaAir": {
+        "label": "Pompa Air",
+        "value": "Free"
+      },
+      "toren": {
+        "label": "Toren Air",
+        "value": "Free"
+      }
+    }
   ]
 }
